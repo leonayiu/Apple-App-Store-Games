@@ -1,1 +1,1 @@
-# SCS_3253_020 - Machine Learning Final Project
+# SCS 3253 020 - Machine Learning Final Project
