@@ -1,8 +1,13 @@
-# Apple App Store Games
+## SCS 3253 020 - Machine Learning Term Project
+### Team 7: 
+Leona Yiu & Xiaoxu Zhang
 
-# Group Members 
+### Overview
+The objective of this project is to predict the success of a game from the Apple App Store based on the appearance and design of the game's icon.
 
-# Source
+### Data Source
+The data source was obtained from Kaggle, link 
+
 
 ## Data Set
 
