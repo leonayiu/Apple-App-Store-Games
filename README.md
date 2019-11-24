@@ -35,14 +35,10 @@ Original Release DateWhen it was released
 Current Version Release DateWhen it was last updated
 
 
-### Attributes
+### Model
 
-### Flow
+### Results
 
-### Steps
 
-### 1. Import data set and libraries
-
-### 2. Data exploration
 
 
