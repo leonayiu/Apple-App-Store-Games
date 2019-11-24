@@ -3,13 +3,11 @@
 Leona Yiu & Xiaoxu Zhang
 
 ### Overview
-The objective of this project is to predict the success of a game from the Apple App Store based on the appearance and design of the game's icon.
+The objective of this project is to predict the success of a game from the Apple App Store based on the appearance and design of the game's icon as well as other key attributes such as the game's genre, age category, and price. 
 
-### Data Source
-The data source was obtained from Kaggle, [link] (https://www.kaggle.com/tristan581/17k-apple-app-store-strategy-games).
+### Data Set
+The data source was obtained from Kaggle, [https://www.kaggle.com/tristan581/17k-apple-app-store-strategy-games].
 
-
-## Data Set
 
 ## Attributes
 
