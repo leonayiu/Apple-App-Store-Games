@@ -15,25 +15,19 @@ The data set comprises 17,007 strategy games available on the Apple App Store an
 3. Name: Name of the game
 4. Subtitle: Secondary text under the name
 5. Icon URL: 512px x 512px jpg
-
-
-
-
-
-Average User RatingRounded to nearest .5, requires at least 5 ratings
-User Rating CountNumber of ratings internationally, null means it is below 5
-PricePrice in USD
-In-app PurchasesPrices of available in-app purchases
-DescriptionApp description
-DeveloperApp developer
-Age RatingEither 4+, 9+, 12+ or 17+
-LanguagesISO2A language codes
-SizeSize of the app in bytes
-Primary GenreThe main genre
-GenresGenres of the app
-Original Release DateWhen it was released
-Current Version Release DateWhen it was last updated
-
+6. Average User Rating: Rounded to nearest .5, requires at least 5 ratings
+7. User Rating Count: Number of ratings internationally, null means it is below 5
+8. Price: Price in USD
+9. In-app Purchases: Prices of available in-app purchases
+10. Description: App description
+11. Developer: App developer
+12. Age Rating: Either 4+, 9+, 12+ or 17+
+13. Languages: ISO2A language codes
+14. Size: Size of the app in bytes
+15. Primary Genre: The main genre
+16. Genres: Genres of the app
+17. Original Release Date: When game was released
+18. Current Version Release Date: When game was last updated
 
 ### Model
 
