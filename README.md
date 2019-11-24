@@ -7,13 +7,14 @@ The objective of this project is to predict the success of a game from the Apple
 
 ### Data Set
 The data source was obtained from Kaggle via the following [link](https://www.kaggle.com/tristan581/17k-apple-app-store-strategy-games) .
+The data set comprises 17,007 strategy games available on the Apple App Store and was collected on August 3rd, 2019 using the iTunes API and the App Store sitemap.
 
 
-## Attributes
+### Attributes
 
-# Flow
+### Flow
 
-## Steps
+### Steps
 
 ### 1. Import data set and libraries
 
