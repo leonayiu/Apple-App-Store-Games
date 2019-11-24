@@ -29,6 +29,8 @@ The data set comprises 17,007 strategy games available on the Apple App Store an
 17. Original Release Date: When game was released
 18. Current Version Release Date: When game was last updated
 
+### Data Preparation & Exploration
+
 ### Model
 
 ### Results
