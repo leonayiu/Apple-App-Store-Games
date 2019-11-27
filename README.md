@@ -4,11 +4,7 @@
 Leona Yiu & Xiaoxu Zhang
 
 ### Overview
-The objective of this project is to predict the success of a game from the Apple App Store, measured by the average user rating, based on the appearance and design of the game's icon as well as other key attributes such as the game's genre, age category, and price. 
-
-*** LY NOTE: metric: user rating + count of users that give rating...no metric on download rate...
-
-
+The objective of this project is to predict the success of a game from the Apple App Store based on the appearance of the game's icon, in particular the color pixels. For this project, we are hoping to determine how the icon's design can determine the game's success, which would be determined by metrics such as the Average User Rating as well as the User Rating Count. 
 
 ### Data Set
 The data source was obtained from Kaggle via the following [link](https://www.kaggle.com/tristan581/17k-apple-app-store-strategy-games) .
