@@ -1,8 +1,7 @@
-## SCS 3253 020 - Machine Learning Term Project
+## SCS 3253 020 - Machine Learning Term Project - December 2019
 ## Apple App Store Games
 ### Team 7: 
 Leona Yiu & Xiaoxu Zhang
-### December 3rd, 2019
 
 ### Overview
 The objective of this project is to predict the success of a game from the Apple App Store based on the appearance of the game's icon, in particular the 512x512 pixels in the icon jpg. For this project, we are hoping to determine how the pixel features involved in the game's icon can determine the game's success, which would be measured by the Average User Rating as well as the User Rating Count. 
