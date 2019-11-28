@@ -41,6 +41,8 @@ The data set was trained with...
 
 * see any patterns high rating amd 3 features
 * see any patterns low rating and 3 features
+
+* overall observations scanning data: higher rated games (4-5) have 4-5 colors taking up 10% of the full image?
 * insert ipynb code link
 
 ### Results
