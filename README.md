@@ -29,14 +29,14 @@ The data set comprises 17,007 strategy games available on the Apple App Store an
 17. Original Release Date: When game was released
 18. Current Version Release Date: When game was last updated
 
-### Data Preparation & Exploration
+### Data Preparation
 The main field of interest is the Icon URL for each of the games listed in the Apple App Store data set. From each Icon URL, the 512x512 pixels in the game's icon jpg is converted into 512x512 strings of 3 color code (RGB format). Based on the color codes involved in the icon, a function is defined in order to determine a) the count of colors taking more than 10% of the full image (hpercent_c_cnt), b) count of colors taking less than 0.1% of the full image (lpercent_c), and c) count of pixels of the color that appears the most in the icon (max_c_cnt). A final csv is exported after processing each of the game's icons with these 3 new features added to the original data set for further analysis and modeling. 
 
-[Link to Data Preparation & Exploration Code](https://github.com/leonayiu/Apple-App-Store-Games/blob/master/Data_Exploration.ipynb)
+[Link to Data Preparation Code](https://github.com/leonayiu/Apple-App-Store-Games/blob/master/Data_Exploration.ipynb)
 
 [Link to Output File after processing Game Icons](https://github.com/leonayiu/Apple-App-Store-Games/blob/master/AppStore_Games_Icon_Pixel.xlsx) 
 
-### Model
+### Data Exploration & Modeling 
 The data set was trained with...
 
 * see any patterns high rating amd 3 features
