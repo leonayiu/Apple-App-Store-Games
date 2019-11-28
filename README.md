@@ -4,7 +4,7 @@
 Leona Yiu & Xiaoxu Zhang
 
 ### Overview
-The objective of this project is to predict the success of a game from the Apple App Store based on the appearance of the game's icon, in particular the color pixels. For this project, we are hoping to determine how the icon's design can determine the game's success, which would be determined by metrics such as the Average User Rating as well as the User Rating Count. 
+The objective of this project is to predict the success of a game from the Apple App Store based on the appearance of the game's icon, in particular the 512x512 pixels in the icon jpg. For this project, we are hoping to determine how the pixel features involved in the game's icon can determine the game's success, which would be measured by the Average User Rating as well as the User Rating Count. 
 
 ### Data Set
 The data source was obtained from Kaggle via the following [link](https://www.kaggle.com/tristan581/17k-apple-app-store-strategy-games) .
