@@ -38,7 +38,10 @@ The main field of interest is the Icon URL for each of the games listed in the A
 
 ### Model
 The data set was trained with...
-*insert ipynb code link*
+
+* see any patterns high rating amd 3 features
+* see any patterns low rating and 3 features
+* insert ipynb code link
 
 ### Results
 
