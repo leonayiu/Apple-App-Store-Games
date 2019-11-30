@@ -37,12 +37,12 @@ The main field of interest is the Icon URL for each of the games listed in the A
 [Link to Output File after processing Game Icons](https://github.com/leonayiu/Apple-App-Store-Games/blob/master/AppStore_Games_Icon_Pixel.xlsx) 
 
 ### Data Exploration & Modeling 
+After dropping any records where the Icon URL and Average User Rating fields were null, there remained 3,027 records which have a game rating of >= 4 and User Rating Count >= 50. Majority of these high rated games have icon images with 0 color that takes up more than 10% of the full image (hpercent_c_cnt) and <30,000 pixels of the color that appears the most in the icon (max_c_cnt). 
+
+
+
+
 The data set was trained with...
-
-* see any patterns high rating amd 3 features
-* see any patterns low rating and 3 features
-
-* overall observations scanning data: higher rated games (4-5) have 4-5 colors taking up 10% of the full image?
 * insert ipynb code link
 
 ### Results
