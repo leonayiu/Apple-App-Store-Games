@@ -37,13 +37,11 @@ The main field of interest is the Icon URL for each of the games listed in the A
 [Link to Output File after processing Game Icons](https://github.com/leonayiu/Apple-App-Store-Games/blob/master/AppStore_Games_Icon_Pixel.xlsx) 
 
 ### Data Exploration & Modeling 
-After dropping any records where the Icon URL and Average User Rating fields were null, there remained 3,027 records which have a game rating of >= 4 and User Rating Count >= 50. Majority of these high rated games have icon images with 0 color that takes up more than 10% of the full image (hpercent_c_cnt) and <30,000 pixels of the color that appears the most in the icon (max_c_cnt). 
+After dropping any records where the Icon URL and Average User Rating fields were null, there remained 3,027 records which have a game rating of >= 4 and User Rating Count >= 50. Majority of these high rated games (2,317 / 3,027 = 77%) have icon images with 0 color that takes up more than 10% of the full image (hpercent_c_cnt) and <27,000 pixels of the color that appears the most in the icon (max_c_cnt). 
+Based on these observations of the high rated games, these two parameters were used as the feature variables for establishing our model.
+The data set was trained using the Random Forest Classifier, where feature variables hpercent_is_0 and max_cnt_is_less_27000 were used to predict the target variable 'Great_App' (having a rating 4 or more).
 
-
-
-
-The data set was trained with...
-* insert ipynb code link
+[Link to Data Preparation Code](https://github.com/leonayiu/Apple-App-Store-Games/blob/master/Data_Exploration.ipynb)
 
 ### Results
 
