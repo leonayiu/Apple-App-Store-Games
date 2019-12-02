@@ -41,7 +41,7 @@ After dropping any records where the Icon URL and Average User Rating fields wer
 Based on these observations of the high rated games, these two parameters were used as the feature variables for establishing our model.
 The data set was trained using the Random Forest Classifier, where feature variables hpercent_is_0 and max_cnt_is_less_27000 were used to predict the target variable 'Great_App' (having a rating 4 or more).
 
-[Link to Data Preparation Code](https://github.com/leonayiu/Apple-App-Store-Games/blob/master/Data_Exploration.ipynb)
+[Link to Data Exploration & Modeling Code](https://github.com/leonayiu/Apple-App-Store-Games/blob/master/Data_Exploration_Modeling.ipynb)
 
 ### Results
 
