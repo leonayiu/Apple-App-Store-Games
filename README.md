@@ -39,12 +39,18 @@ The main field of interest is the Icon URL for each of the games listed in the A
 ### Data Exploration & Modeling 
 After dropping any records where the Icon URL and Average User Rating fields were null, there remained 3,027 records which have a game rating of >= 4 and User Rating Count >= 50. Majority of these high rated games (2,317 / 3,027 = 77%) have icon images with 0 color that takes up more than 10% of the full image (hpercent_c_cnt) and <27,000 pixels of the color that appears the most in the icon (max_c_cnt). 
 Based on these observations of the high rated games, these two parameters were used as the feature variables for establishing our model.
-The data set was trained using the Random Forest Classifier, where feature variables hpercent_is_0 and max_cnt_is_less_27000 were used to predict the target variable 'Great_App' (having a rating 4 or more).
+The data set was trained using the Random Forest Classifier, where engineered feature variables hpercent_is_0 and max_cnt_is_less_27000 were used to predict the target variable 'Great_App' (having a rating 4 or more).
 
 [Link to Data Exploration & Modeling Code](https://github.com/leonayiu/Apple-App-Store-Games/blob/master/Data_Exploration_Modeling.ipynb)
 
 ### Results
+Confusion Matrix Results: 
+Model accurately predicted 1664 / 2269 (73%) cases that the game is a Great App (high rating of 4 or higher). However, there are 605 cases (25%) cases where the model incorrectly predicted that the game is a Great App, when based on the actual average user ratings from the data set, the games had low ratings.
 
+lassification Report Results: 
+73% precision classifying that a game is a Great App based on feature variables hpercent_is_0 and max_c_cnt_is_less_27000 (0 color taking >10% of game icon, <27,000 pixels of the most frequent color present in icon).
+100% recall indicating 100% of all the game icons with high rating were correctly labled by the Random Forest classifier. 
+F1 score of 85%, measuring test's accuracy as weighted harmonic mean of precision and recall. Overall, the Random Forest Classifier is good at recognizing game with high rating.
 
-
-
+Mean AUC Score:
+Mean AUC score value of 0.48 indicates a mediocre classifier, being able to distinguish between highly rated games versus low rated games. 
